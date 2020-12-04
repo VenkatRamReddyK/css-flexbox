@@ -1,0 +1,18 @@
+h1,
+h2 {
+  font-family: Lato;
+}
+.parent {
+  display: flex; /*or inline-flex*/
+  background: gray;
+  border-radius: 1rem;
+  border: 0.3rem black solid;
+}
+
+.child {
+  width: 25%;
+  height: 100px;
+  background-color: #8cacea;
+  padding: 1rem;
+  margin: 1rem;
+}
