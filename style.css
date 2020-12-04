@@ -4,6 +4,8 @@ h2 {
 }
 .flex-container {
   display: flex; /*or inline-flex*/
+  flex-direction: row;
+  flex-wrap: wrap;
   background: gray;
   border-radius: 1rem;
   border: 0.3rem black solid;
