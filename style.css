@@ -3,9 +3,14 @@ h2 {
   font-family: Lato;
 }
 .flex-container {
-  display: flex; /*or inline-flex*/
+  display: flex;
   flex-direction: row;
+
+  /* 
   flex-wrap: wrap;
+  when the available space within the flex-container can no longer house the flex-items in their default widths, break unto multiple lines */
+  flex-wrap: wrap;
+
   background: gray;
   border-radius: 1rem;
   border: 0.3rem black solid;
